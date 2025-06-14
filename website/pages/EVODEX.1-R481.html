@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVODEX.1-R481 - Reaction</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html">
+            <img src="../images/evodex_logo.png" alt="EVODEX Logo">
+        </a>
+        <div>
+            <h1>EVODEX.1-R481</h1>
+            <h2>Full Hydrogen-Mapped Reaction</h2>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>SMIRKS</h2>
+            <img src="../images/EVODEX.1-R481.svg" alt="Reaction Rendering">
+            <p>[H][C:1]([O:2][C:3]1:[C:4]([H:63]):[C:5]([C:6](=[O:7])[O:8][H:64]):[C:9]([H:65]):[C:10]([H:66]):[C:11]:1[O:12][H:67])([H:68])[H:69].[HH].[H][C:60]1([H:97])[C:16]([C:14]([N:13]([H:99])[H:100])=[O:15])=[C:17]([H:71])[N:18]([C@:19]2([H:72])[O:20][C@@:21]([C:22]([O:23][P:24](=[O:25])([O:26][H:73])[O:27][P:28](=[O:29])([O:30][H:74])[O:31][C:32]([C@@:33]3([H:75])[O:34][C@:35]([N:36]4:[C:37]([H:76]):[N:38]:[C:39]5:[C:40]([N:41]([H:77])[H:78]):[N:42]:[C:43]([H:79]):[N:44]:[C:45]:4:5)([H:80])[C@@:46]([O:47][P:48](=[O:49])([O:50][H:81])[O:51][H:82])([H:83])[C@@:52]3([O:53][H:84])[H:85])([H:86])[H:87])([H:88])[H:89])([H:90])[C@:54]([O:55][H:91])([H:92])[C@:56]2([O:57][H:93])[H:94])[C:58]([H:95])=[C:59]1[H:96].[O:61]=[O:62]>>[C:1](=[O:62])([H:68])[H:69].[N:13]([C:14](=[O:15])[C:16]1:[C:17]([H:71]):[N+:18]([C@:19]2([H:72])[O:20][C@@:21]([C:22]([O:23][P:24](=[O:25])([O:26][H:73])[O:27][P:28](=[O:29])([O:30][H:74])[O:31][C:32]([C@@:33]3([H:75])[O:34][C@:35]([N:36]4:[C:37]([H:76]):[N:38]:[C:39]5:[C:40]([N:41]([H:77])[H:78]):[N:42]:[C:43]([H:79]):[N:44]:[C:45]:4:5)([H:80])[C@@:46]([O:47][P:48](=[O:49])([O:50][H:81])[O:51][H:82])([H:83])[C@@:52]3([O:53][H:84])[H:85])([H:86])[H:87])([H:88])[H:89])([H:90])[C@:54]([O:55][H:91])([H:92])[C@:56]2([O:57][H:93])[H:94]):[C:58]([H:95]):[C:59]([H:96]):[C:60]:1[H:97])([H:99])[H:100].[H][O:61][H].[H][O:2][C:3]1:[C:4]([H:63]):[C:5]([C:6](=[O:7])[O:8][H:64]):[C:9]([H:65]):[C:10]([H:66]):[C:11]:1[O:12][H:67]</p>
+        </section>
+        <section>
+            <h2>Source Database Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rxn Index</th>
+                        <th>Original Reaction Text</th>
+                        <th>Natural</th>
+                        <th>Organism</th>
+                        <th>Protein Refs</th>
+                        <th>Protein DB</th>
+                        <th>EC Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>48258</td>
+                        <td>vanillic acid + NAD(P)H + H+ + O2 = protocatechuic acid + NAD(P)+ + H2O + formaldehyde</td>
+                        <td>True</td>
+                        <td>Pseudomonas putida</td>
+                        <td></td>
+                        <td>nan</td>
+                        <td>1.14.13.82</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>        
+        <section>
+            <h2>Derived Partial Reactions</h2>
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-P501.html">EVODEX.1-P501</a></h3>
+                <img src="../images/EVODEX.1-P501.svg" alt="[H][C:1]([O:2][C:3]1:[C:4]([H:59]):[C:5]([C:6](=[O:7])[O:8][H:60]):[C:9]([H:61]):[C:10]([H:62]):[C:11]:1[O:12][H:63])([H:64])[H:65].O=[O:58]>>[C:1](=[O:58])([H:64])[H:65].[H][O:2][C:3]1:[C:4]([H:59]):[C:5]([C:6](=[O:7])[O:8][H:60]):[C:9]([H:61]):[C:10]([H:62]):[C:11]:1[O:12][H:63]">
+                <p>[H][C:1]([O:2][C:3]1:[C:4]([H:59]):[C:5]([C:6](=[O:7])[O:8][H:60]):[C:9]([H:61]):[C:10]([H:62]):[C:11]:1[O:12][H:63])([H:64])[H:65].O=[O:58]>>[C:1](=[O:58])([H:64])[H:65].[H][O:2][C:3]1:[C:4]([H:59]):[C:5]([C:6](=[O:7])[O:8][H:60]):[C:9]([H:61]):[C:10]([H:62]):[C:11]:1[O:12][H:63]</p>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVODEX.1-R3220 - Reaction</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html">
+            <img src="../images/evodex_logo.png" alt="EVODEX Logo">
+        </a>
+        <div>
+            <h1>EVODEX.1-R3220</h1>
+            <h2>Full Hydrogen-Mapped Reaction</h2>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>SMIRKS</h2>
+            <img src="../images/EVODEX.1-R3220.svg" alt="Reaction Rendering">
+            <p>[H][N:1]([C:2]1:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:1[H:48])[H:49].[O:9]=[C:10]1:[C:11]([H:51]):[C:12]([H:52]):[N:13]([C@:14]2([H:53])[O:15][C@@:16]([C:17]([O:18][P:19](=[O:20])([O:21][H:54])[O:22][P:23](=[O:24])([O:25][H:55])[O:26][C@@:27]3([H:56])[O:28][C@@:29]([C:30]([O:31][H:57])([H:58])[H:59])([H:60])[C@:32]([O:33][H:61])([H:62])[C@@:34]([O:35][H:63])([H:64])[C@:36]3([O:37][H:65])[H:66])([H:67])[H:68])([H:69])[C@:38]([O:39][H:70])([H:71])[C@:40]2([O:41][H:72])[H:73]):[C:42](=[O:43]):[N:44]:1[H:74]>>[N:1]([C:2]1:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:1[H:48])([C:27]1([H:56])[O:28][C@@:29]([C:30]([O:31][H:57])([H:58])[H:59])([H:60])[C@:32]([O:33][H:61])([H:62])[C@@:34]([O:35][H:63])([H:64])[C@:36]1([O:37][H:65])[H:66])[H:49].[H][O:26][P:23]([O:22][P:19]([O:18][C:17]([C@@:16]1([H:69])[O:15][C@:14]([N:13]2:[C:12]([H:52]):[C:11]([H:51]):[C:10](=[O:9]):[N:44]([H:74]):[C:42]:2=[O:43])([H:53])[C@@:40]([O:41][H:72])([H:73])[C@@:38]1([O:39][H:70])[H:71])([H:67])[H:68])(=[O:20])[O:21][H:54])(=[O:24])[O:25][H:55]</p>
+        </section>
+        <section>
+            <h2>Source Database Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rxn Index</th>
+                        <th>Original Reaction Text</th>
+                        <th>Natural</th>
+                        <th>Organism</th>
+                        <th>Protein Refs</th>
+                        <th>Protein DB</th>
+                        <th>EC Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>139886</td>
+                        <td>UDP-glucose + 3-chloroaniline = UDP + N-(3-chlorophenyl)-glucosylamine</td>
+                        <td>False</td>
+                        <td>Glycine max</td>
+                        <td></td>
+                        <td>nan</td>
+                        <td>2.4.1.71</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>        
+        <section>
+            <h2>Derived Partial Reactions</h2>
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-P2469.html">EVODEX.1-P2469</a></h3>
+                <img src="../images/EVODEX.1-P2469.svg" alt="[H][N:1]([C:2]1:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:1[H:48])[H:49].[H]O[C@@]1([H])[C@@]([H])(O[H])[C@]([H])(N2:C([H]):C([H]):C(=O):N([H]):C:2=O)O[C@]1([H])C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[C@@:27]1([H:56])[O:28][C@@:29]([C:30]([O:31][H:57])([H:58])[H:59])([H:60])[C@:32]([O:33][H:61])([H:62])[C@@:34]([O:35][H:63])([H:64])[C@:36]1([O:37][H:65])[H:66]>>[N:1]([C:2]1:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:1[H:48])([C:27]1([H:56])[O:28][C@@:29]([C:30]([O:31][H:57])([H:58])[H:59])([H:60])[C@:32]([O:33][H:61])([H:62])[C@@:34]([O:35][H:63])([H:64])[C@:36]1([O:37][H:65])[H:66])[H:49]">
+                <p>[H][N:1]([C:2]1:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:1[H:48])[H:49].[H]O[C@@]1([H])[C@@]([H])(O[H])[C@]([H])(N2:C([H]):C([H]):C(=O):N([H]):C:2=O)O[C@]1([H])C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[C@@:27]1([H:56])[O:28][C@@:29]([C:30]([O:31][H:57])([H:58])[H:59])([H:60])[C@:32]([O:33][H:61])([H:62])[C@@:34]([O:35][H:63])([H:64])[C@:36]1([O:37][H:65])[H:66]>>[N:1]([C:2]1:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:1[H:48])([C:27]1([H:56])[O:28][C@@:29]([C:30]([O:31][H:57])([H:58])[H:59])([H:60])[C@:32]([O:33][H:61])([H:62])[C@@:34]([O:35][H:63])([H:64])[C@:36]1([O:37][H:65])[H:66])[H:49]</p>
+            </div>
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-P2470.html">EVODEX.1-P2470</a></h3>
+                <img src="../images/EVODEX.1-P2470.svg" alt="[H][N:1]([C:2]1:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:1[H:48])[H:49]>>[H]OC([H])([H])[C@@]1([H])OC([H])([N:1]([C:2]2:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:2[H:48])[H:49])[C@]([H])(O[H])[C@@]([H])(O[H])[C@]1([H])O[H]">
+                <p>[H][N:1]([C:2]1:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:1[H:48])[H:49]>>[H]OC([H])([H])[C@@]1([H])OC([H])([N:1]([C:2]2:[C:3]([H:45]):[C:4]([H:46]):[C:5]([H:47]):[C:6]([Cl:7]):[C:8]:2[H:48])[H:49])[C@]([H])(O[H])[C@@]([H])(O[H])[C@]1([H])O[H]</p>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

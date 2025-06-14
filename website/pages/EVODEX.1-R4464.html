@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVODEX.1-R4464 - Reaction</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html">
+            <img src="../images/evodex_logo.png" alt="EVODEX Logo">
+        </a>
+        <div>
+            <h1>EVODEX.1-R4464</h1>
+            <h2>Full Hydrogen-Mapped Reaction</h2>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>SMIRKS</h2>
+            <img src="../images/EVODEX.1-R4464.svg" alt="Reaction Rendering">
+            <p>[H][O:20][C:19]1([H:74])[C@:6]([O:7][C@@:8]2([H:60])[O:9][C@@:10]([C:11]([O:12][H:61])([H:62])[H:63])([H:64])[C:13]([O:14][H:65])([H:66])[C@@:15]([N:16]([H:67])[H:68])([H:69])[C:17]2([O:18][H:70])[H:71])([H:72])[C:4]([N:5]([H:57])[H:58])([H:59])[C:3]([H:55])([H:56])[C:2]([N:1]([H:77])[H:78])([H:54])[C@:21]1([O:22][H:75])[H:76].[N:23]([C:24]1:[N:25]:[C:26]([H:79]):[N:27]:[C:28]2:[C:29]:1:[N:30]:[C:31]([H:80]):[N:32]:2[C@:33]1([H:81])[O:34][C@@:35]([C:36]([O:37][P:38](=[O:39])([O:40][H:82])[O:41][P:42](=[O:43])([O:44][H:83])[O:45][P:46](=[O:47])([O:48][H:84])[O:49][H:85])([H:86])[H:87])([H:88])[C@:50]([O:51][H:89])([H:90])[C@:52]1([O:53][H:91])[H:92])([H:93])[H:94]>>[N:1]([C:2]1([H:54])[C:3]([H:55])([H:56])[C:4]([N:5]([H:57])[H:58])([H:59])[C@@:6]([O:7][C@@:8]2([H:60])[O:9][C@@:10]([C:11]([O:12][H:61])([H:62])[H:63])([H:64])[C:13]([O:14][H:65])([H:66])[C@@:15]([N:16]([H:67])[H:68])([H:69])[C:17]2([O:18][H:70])[H:71])([H:72])[C:19]([O:20][P:38]([O:37][C:36]([C@@:35]2([H:88])[O:34][C@:33]([N:32]3:[C:28]4:[N:27]:[C:26]([H:79]):[N:25]:[C:24]([N:23]([H:93])[H:94]):[C:29]:4:[N:30]:[C:31]:3[H:80])([H:81])[C@@:52]([O:53][H:91])([H:92])[C@@:50]2([O:51][H:89])[H:90])([H:86])[H:87])(=[O:39])[O:40][H:82])([H:74])[C@@:21]1([O:22][H:75])[H:76])([H:77])[H:78].[H][O:41][P:42](=[O:43])([O:44][H:83])[O:45][P:46](=[O:47])([O:48][H:84])[O:49][H:85]</p>
+        </section>
+        <section>
+            <h2>Source Database Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rxn Index</th>
+                        <th>Original Reaction Text</th>
+                        <th>Natural</th>
+                        <th>Organism</th>
+                        <th>Protein Refs</th>
+                        <th>Protein DB</th>
+                        <th>EC Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>184045</td>
+                        <td>ATP + tobramycin A = diphosphate + 2''-adenylyltobramycin</td>
+                        <td>False</td>
+                        <td>Klebsiella pneumoniae</td>
+                        <td>P0AE05</td>
+                        <td>uniprot</td>
+                        <td>2.7.7.46</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>        
+        <section>
+            <h2>Derived Partial Reactions</h2>
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-P302.html">EVODEX.1-P302</a></h3>
+                <img src="../images/EVODEX.1-P302.svg" alt="[H]O[C@@]1([H])[C@@]([H])(O[H])[C@]([H])(N2:C([H]):N:C3:C(N([H])[H]):N:C([H]):N:C:3:2)O[C@]1([H])C([H])([H])OP(=O)(O[H])[O:89][P:90](=[O:91])([O:92][H:174])[O:93][P:94](=[O:95])([O:96][H:175])[O:97][H:176]>>[H][O:89][P:90](=[O:91])([O:92][H:174])[O:93][P:94](=[O:95])([O:96][H:175])[O:97][H:176]">
+                <p>[H]O[C@@]1([H])[C@@]([H])(O[H])[C@]([H])(N2:C([H]):N:C3:C(N([H])[H]):N:C([H]):N:C:3:2)O[C@]1([H])C([H])([H])OP(=O)(O[H])[O:89][P:90](=[O:91])([O:92][H:174])[O:93][P:94](=[O:95])([O:96][H:175])[O:97][H:176]>>[H][O:89][P:90](=[O:91])([O:92][H:174])[O:93][P:94](=[O:95])([O:96][H:175])[O:97][H:176]</p>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

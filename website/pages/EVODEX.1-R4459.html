@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVODEX.1-R4459 - Reaction</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html">
+            <img src="../images/evodex_logo.png" alt="EVODEX Logo">
+        </a>
+        <div>
+            <h1>EVODEX.1-R4459</h1>
+            <h2>Full Hydrogen-Mapped Reaction</h2>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>SMIRKS</h2>
+            <img src="../images/EVODEX.1-R4459.svg" alt="Reaction Rendering">
+            <p>[H][O:5][C@:4]1([H:65])[C@:3]([N:2]([C:1]([H:97])([H:98])[H:99])[H:96])([H:63])[C@@:29]([C:30]([H:92])([H:93])[H:94])([O:31][H:95])[C:28]([H:90])([H:91])[O:27][C@@:6]1([O:7][C@:8]1([H:66])[C@:9]([O:10][H:67])([H:68])[C@@:11]([O:12][C@@:13]2([H:69])[O:14][C:15]([C:16]([N:17]([H:70])[H:71])([H:72])[H:73])=[C:18]([H:74])[C:19]([H:75])([H:76])[C@:20]2([N:21]([H:77])[H:78])[H:79])([H:80])[C@:22]([N:23]([H:81])[H:82])([H:83])[C:24]([H:84])([H:85])[C@:25]1([N:26]([H:86])[H:87])[H:88])[H:89].[N:32]([C:33]1:[N:34]:[C:35]([H:100]):[N:36]:[C:37]2:[C:38]:1:[N:39]:[C:40]([H:101]):[N:41]:2[C@:42]1([H:102])[O:43][C@@:44]([C:45]([O:46][P:47](=[O:48])([O:49][H:103])[O:50][P:51](=[O:52])([O:53][H:104])[O:54][P:55](=[O:56])([O:57][H:105])[O:58][H:106])([H:107])[H:108])([H:109])[C@:59]([O:60][H:110])([H:111])[C@:61]1([O:62][H:112])[H:113])([H:114])[H:115]>>[C:1]([N:2]([C@:3]1([H:63])[C@:4]([O:5][P:47]([O:46][C:45]([C@@:44]2([H:109])[O:43][C@:42]([N:41]3:[C:37]4:[N:36]:[C:35]([H:100]):[N:34]:[C:33]([N:32]([H:114])[H:115]):[C:38]:4:[N:39]:[C:40]:3[H:101])([H:102])[C@@:61]([O:62][H:112])([H:113])[C@@:59]2([O:60][H:110])[H:111])([H:107])[H:108])(=[O:48])[O:49][H:103])([H:65])[C@:6]([O:7][C@:8]2([H:66])[C@:9]([O:10][H:67])([H:68])[C@@:11]([O:12][C@@:13]3([H:69])[O:14][C:15]([C:16]([N:17]([H:70])[H:71])([H:72])[H:73])=[C:18]([H:74])[C:19]([H:75])([H:76])[C@:20]3([N:21]([H:77])[H:78])[H:79])([H:80])[C@:22]([N:23]([H:81])[H:82])([H:83])[C:24]([H:84])([H:85])[C@:25]2([N:26]([H:86])[H:87])[H:88])([H:89])[O:27][C:28]([H:90])([H:91])[C@:29]1([C:30]([H:92])([H:93])[H:94])[O:31][H:95])[H:96])([H:97])([H:98])[H:99].[H][O:50][P:51](=[O:52])([O:53][H:104])[O:54][P:55](=[O:56])([O:57][H:105])[O:58][H:106]</p>
+        </section>
+        <section>
+            <h2>Source Database Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rxn Index</th>
+                        <th>Original Reaction Text</th>
+                        <th>Natural</th>
+                        <th>Organism</th>
+                        <th>Protein Refs</th>
+                        <th>Protein DB</th>
+                        <th>EC Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>184025</td>
+                        <td>ATP + sisomicin = diphosphate + 2''-adenylylsisomicin {r}</td>
+                        <td>False</td>
+                        <td>Escherichia coli</td>
+                        <td></td>
+                        <td>nan</td>
+                        <td>2.7.7.46</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>        
+        <section>
+            <h2>Derived Partial Reactions</h2>
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-P302.html">EVODEX.1-P302</a></h3>
+                <img src="../images/EVODEX.1-P302.svg" alt="[H]O[C@@]1([H])[C@@]([H])(O[H])[C@]([H])(N2:C([H]):N:C3:C(N([H])[H]):N:C([H]):N:C:3:2)O[C@]1([H])C([H])([H])OP(=O)(O[H])[O:89][P:90](=[O:91])([O:92][H:174])[O:93][P:94](=[O:95])([O:96][H:175])[O:97][H:176]>>[H][O:89][P:90](=[O:91])([O:92][H:174])[O:93][P:94](=[O:95])([O:96][H:175])[O:97][H:176]">
+                <p>[H]O[C@@]1([H])[C@@]([H])(O[H])[C@]([H])(N2:C([H]):N:C3:C(N([H])[H]):N:C([H]):N:C:3:2)O[C@]1([H])C([H])([H])OP(=O)(O[H])[O:89][P:90](=[O:91])([O:92][H:174])[O:93][P:94](=[O:95])([O:96][H:175])[O:97][H:176]>>[H][O:89][P:90](=[O:91])([O:92][H:174])[O:93][P:94](=[O:95])([O:96][H:175])[O:97][H:176]</p>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

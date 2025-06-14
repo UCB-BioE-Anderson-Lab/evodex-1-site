@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVODEX.1-R1954 - Reaction</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html">
+            <img src="../images/evodex_logo.png" alt="EVODEX Logo">
+        </a>
+        <div>
+            <h1>EVODEX.1-R1954</h1>
+            <h2>Full Hydrogen-Mapped Reaction</h2>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>SMIRKS</h2>
+            <img src="../images/EVODEX.1-R1954.svg" alt="Reaction Rendering">
+            <p>[C:1]([C:2]([C:3]([H:65])([H:66])[H:67])([C:4]([O:5][P:6](=[O:7])([O:8][H:68])[O:9][P:10](=[O:11])([O:12][H:69])[O:13][C:14]([C@@:15]1([H:70])[O:16][C@:17]([N:18]2:[C:19]([H:71]):[N:20]:[C:21]3:[C:22]([N:23]([H:72])[H:73]):[N:24]:[C:25]([H:74]):[N:26]:[C:27]:2:3)([H:75])[C@@:28]([O:29][H:76])([H:77])[C@@:30]1([O:31][P:32](=[O:33])([O:34][H:78])[O:35][H:79])[H:80])([H:81])[H:82])([H:83])[H:84])[C@@:36]([O:37][H:85])([C:38](=[O:39])[N:40]([C:41]([C:42]([C:43](=[O:44])[N:45]([C:46]([C:47]([S:48][C:49](=[O:50])[C:51]([C:52](=[O:53])[O:54][H:86])([H:87])[H:88])([H:89])[H:90])([H:91])[H:92])[H:93])([H:94])[H:95])([H:96])[H:97])[H:98])[H:99])([H:100])([H:101])[H:102].[H][N:55]([C:56]1:[C:57]([H:103]):[C:58]([Cl:59]):[C:60]([Cl:61]):[C:62]([H:104]):[C:63]:1[Cl:64])[H:105]>>[C:49](=[O:50])([C:51]([C:52](=[O:53])[O:54][H:86])([H:87])[H:88])[N:55]([C:56]1:[C:57]([H:103]):[C:58]([Cl:59]):[C:60]([Cl:61]):[C:62]([H:104]):[C:63]:1[Cl:64])[H:105].[H][S:48][C:47]([C:46]([N:45]([C:43]([C:42]([C:41]([N:40]([C:38]([C@@:36]([C:2]([C:1]([H:100])([H:101])[H:102])([C:3]([H:65])([H:66])[H:67])[C:4]([O:5][P:6](=[O:7])([O:8][H:68])[O:9][P:10](=[O:11])([O:12][H:69])[O:13][C:14]([C@@:15]1([H:70])[O:16][C@:17]([N:18]2:[C:19]([H:71]):[N:20]:[C:21]3:[C:22]([N:23]([H:72])[H:73]):[N:24]:[C:25]([H:74]):[N:26]:[C:27]:2:3)([H:75])[C@@:28]([O:29][H:76])([H:77])[C@@:30]1([O:31][P:32](=[O:33])([O:34][H:78])[O:35][H:79])[H:80])([H:81])[H:82])([H:83])[H:84])([O:37][H:85])[H:99])=[O:39])[H:98])([H:96])[H:97])([H:94])[H:95])=[O:44])[H:93])([H:91])[H:92])([H:89])[H:90]</p>
+        </section>
+        <section>
+            <h2>Source Database Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rxn Index</th>
+                        <th>Original Reaction Text</th>
+                        <th>Natural</th>
+                        <th>Organism</th>
+                        <th>Protein Refs</th>
+                        <th>Protein DB</th>
+                        <th>EC Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>110176</td>
+                        <td>malonyl-CoA + 2,4,5-trichloroaniline = CoA + N-(2,4,5-trichlorophenyl)-malonamate</td>
+                        <td>False</td>
+                        <td>Glycine max</td>
+                        <td></td>
+                        <td>nan</td>
+                        <td>2.3.1.114</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>        
+        <section>
+            <h2>Derived Partial Reactions</h2>
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-P1429.html">EVODEX.1-P1429</a></h3>
+                <img src="../images/EVODEX.1-P1429.svg" alt="[H][N:55]([C:56]1:[C:57]([H:103]):[C:58]([Cl:59]):[C:60]([Cl:61]):[C:62]([H:104]):[C:63]:1[Cl:64])[H:105]>>[H]OC(=O)C([H])([H])C(=O)[N:55]([C:56]1:[C:57]([H:103]):[C:58]([Cl:59]):[C:60]([Cl:61]):[C:62]([H:104]):[C:63]:1[Cl:64])[H:105]">
+                <p>[H][N:55]([C:56]1:[C:57]([H:103]):[C:58]([Cl:59]):[C:60]([Cl:61]):[C:62]([H:104]):[C:63]:1[Cl:64])[H:105]>>[H]OC(=O)C([H])([H])C(=O)[N:55]([C:56]1:[C:57]([H:103]):[C:58]([Cl:59]):[C:60]([Cl:61]):[C:62]([H:104]):[C:63]:1[Cl:64])[H:105]</p>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

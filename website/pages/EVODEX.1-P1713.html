@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVODEX.1-P1713 - Partial Reaction</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html">
+            <img src="../images/evodex_logo.png" alt="EVODEX Logo">
+        </a>
+        <div>
+            <h1>EVODEX.1-P1713</h1>
+            <h2>Partial Hydrogen-Mapped Reactions</h2>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>SMIRKS</h2>
+            <img src="../images/EVODEX.1-P1713.svg" alt="Partial Reaction Rendering">
+            <p>[C:1]([C:2](=[O:3])[S:4][C:5]([C:6]([N:7]([C:8](=[O:9])[C:10]([C:11]([N:12]([C:13](=[O:14])[C@:15]([O:16][H:58])([C:17]([C:18]([H:59])([H:60])[H:61])([C:19]([H:62])([H:63])[H:64])[C:20]([O:21][P:22](=[O:23])([O:24][H:65])[O:25][P:26](=[O:27])([O:28][H:66])[O:29][C:30]([C@@:31]1([H:67])[O:32][C@:33]([N:34]2:[C:35]([H:68]):[N:36]:[C:37]3:[C:38]([N:39]([H:69])[H:70]):[N:40]:[C:41]([H:71]):[N:42]:[C:43]:2:3)([H:72])[C@@:44]([O:45][H:73])([H:74])[C@@:46]1([O:47][P:48](=[O:49])([O:50][H:75])[O:51][H:76])[H:77])([H:78])[H:79])([H:80])[H:81])[H:82])[H:83])([H:84])[H:85])([H:86])[H:87])[H:88])([H:89])[H:90])([H:91])[H:92])([H:93])([H:94])[H:95].[H][C:52]([C@:53]([N:54]([H:96])[H:97])([C:55](=[O:56])[O:57][H:98])[H:99])([H:100])[H:101]>>[C:1]([C:2](=[O:3])[C:52]([C@:53]([N:54]([H:96])[H:97])([C:55](=[O:56])[O:57][H:98])[H:99])([H:100])[H:101])([H:93])([H:94])[H:95].[H][S:4][C:5]([C:6]([N:7]([C:8](=[O:9])[C:10]([C:11]([N:12]([C:13](=[O:14])[C@:15]([O:16][H:58])([C:17]([C:18]([H:59])([H:60])[H:61])([C:19]([H:62])([H:63])[H:64])[C:20]([O:21][P:22](=[O:23])([O:24][H:65])[O:25][P:26](=[O:27])([O:28][H:66])[O:29][C:30]([C@@:31]1([H:67])[O:32][C@:33]([N:34]2:[C:35]([H:68]):[N:36]:[C:37]3:[C:38]([N:39]([H:69])[H:70]):[N:40]:[C:41]([H:71]):[N:42]:[C:43]:2:3)([H:72])[C@@:44]([O:45][H:73])([H:74])[C@@:46]1([O:47][P:48](=[O:49])([O:50][H:75])[O:51][H:76])[H:77])([H:78])[H:79])([H:80])[H:81])[H:82])[H:83])([H:84])[H:85])([H:86])[H:87])[H:88])([H:89])[H:90])([H:91])[H:92]</p>
+        </section>
+        <section>
+            <h2>Derived Operators</h2>
+            <div>
+                <h3><a href="../pages/EVODEX.1-F7.html">EVODEX.1-F7 - Elemental Balance</a></h3>
+                <table class="table-formula">
+                    
+                </table>
+            </div>
+            <div>
+                <h3><a href="../pages/EVODEX.1-M1.html">EVODEX.1-M1 - Mass Difference</a></h3>
+                <p><strong>0.0</strong></p>
+            </div>
+            
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-E222.html">EVODEX.1-E222 - Reaction Operator E</a></h3>
+                <img src="../images/EVODEX.1-E222.svg" alt="Reaction Operator E SMIRKS">
+                <p>[#6:1](-[#6:2])(-[H:139])(-[H:140])-[H].[#6:53]-[#6:54](=[#8:55])-[#16:56]-[#6:57]>>[#6:1](-[#6:2])(-[#6:54](-[#6:53])=[#8:55])(-[H:139])-[H:140].[#16:56](-[#6:57])-[H]</p>
+            </div>
+            
+            
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-C113.html">EVODEX.1-C113 - Reaction Operator C</a></h3>
+                <img src="../images/EVODEX.1-C113.svg" alt="Reaction Operator C SMIRKS">
+                <p>[#6:2]-[#16:4].[H]-[#6:52]>>[#6:2]-[#6:52].[H]-[#16:4]</p>
+            </div>
+            
+            
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-N341.html">EVODEX.1-N341 - Reaction Operator N</a></h3>
+                <img src="../images/EVODEX.1-N341.svg" alt="Reaction Operator N SMIRKS">
+                <p>[#6:1]-[#6:2](=[#8:3])-[#16:4]-[#6:5].[H]-[#6:52](-[#6:53])(-[H:178])-[H:179]>>[#6:1]-[#6:2](=[#8:3])-[#6:52](-[#6:53])(-[H:178])-[H:179].[H]-[#16:4]-[#6:5]</p>
+            </div>
+            
+            
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-Em440.html">EVODEX.1-Em440 - Reaction Operator Em</a></h3>
+                <img src="../images/EVODEX.1-Em440.svg" alt="Reaction Operator Em SMIRKS">
+                <p>[#6:1]-[#6:2](=[#8:3])-[#16:4]-[#6:5].[H]-[#6:52]-[#6:53]>>[#6:1]-[#6:2](=[#8:3])-[#6:52]-[#6:53].[H]-[#16:4]-[#6:5]</p>
+            </div>
+            
+            
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-Cm134.html">EVODEX.1-Cm134 - Reaction Operator Cm</a></h3>
+                <img src="../images/EVODEX.1-Cm134.svg" alt="Reaction Operator Cm SMIRKS">
+                <p>[#6:2]-[#16:4].[H]-[#6:52]>>[#6:2]-[#6:52].[H]-[#16:4]</p>
+            </div>
+            
+            
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-Nm393.html">EVODEX.1-Nm393 - Reaction Operator Nm</a></h3>
+                <img src="../images/EVODEX.1-Nm393.svg" alt="Reaction Operator Nm SMIRKS">
+                <p>[#6:1]-[#6:2](=[#8:3])-[#16:4]-[#6:5].[H]-[#6:52]-[#6:53]>>[#6:1]-[#6:2](=[#8:3])-[#6:52]-[#6:53].[H]-[#16:4]-[#6:5]</p>
+            </div>
+            
+            
+        </section>
+        <section>
+            <h2>Source Full Reactions</h2>
+            
+            <div>
+                <h3><a href="../pages/EVODEX.1-R2279.html">EVODEX.1-R2279</a></h3>
+                <img src="../images/EVODEX.1-R2279.svg" alt="Full Reaction Rendering">
+                <p>[C:1]([C:2](=[O:3])[S:4][C:5]([C:6]([N:7]([C:8](=[O:9])[C:10]([C:11]([N:12]([C:13](=[O:14])[C@:15]([O:16][H:58])([C:17]([C:18]([H:59])([H:60])[H:61])([C:19]([H:62])([H:63])[H:64])[C:20]([O:21][P:22](=[O:23])([O:24][H:65])[O:25][P:26](=[O:27])([O:28][H:66])[O:29][C:30]([C@@:31]1([H:67])[O:32][C@:33]([N:34]2:[C:35]([H:68]):[N:36]:[C:37]3:[C:38]([N:39]([H:69])[H:70]):[N:40]:[C:41]([H:71]):[N:42]:[C:43]:2:3)([H:72])[C@@:44]([O:45][H:73])([H:74])[C@@:46]1([O:47][P:48](=[O:49])([O:50][H:75])[O:51][H:76])[H:77])([H:78])[H:79])([H:80])[H:81])[H:82])[H:83])([H:84])[H:85])([H:86])[H:87])[H:88])([H:89])[H:90])([H:91])[H:92])([H:93])([H:94])[H:95].[H][C:52]([C@:53]([N:54]([H:96])[H:97])([C:55](=[O:56])[O:57][H:98])[H:99])([H:100])[H:101]>>[C:1]([C:2](=[O:3])[C:52]([C@:53]([N:54]([H:96])[H:97])([C:55](=[O:56])[O:57][H:98])[H:99])([H:100])[H:101])([H:93])([H:94])[H:95].[H][S:4][C:5]([C:6]([N:7]([C:8](=[O:9])[C:10]([C:11]([N:12]([C:13](=[O:14])[C@:15]([O:16][H:58])([C:17]([C:18]([H:59])([H:60])[H:61])([C:19]([H:62])([H:63])[H:64])[C:20]([O:21][P:22](=[O:23])([O:24][H:65])[O:25][P:26](=[O:27])([O:28][H:66])[O:29][C:30]([C@@:31]1([H:67])[O:32][C@:33]([N:34]2:[C:35]([H:68]):[N:36]:[C:37]3:[C:38]([N:39]([H:69])[H:70]):[N:40]:[C:41]([H:71]):[N:42]:[C:43]:2:3)([H:72])[C@@:44]([O:45][H:73])([H:74])[C@@:46]1([O:47][P:48](=[O:49])([O:50][H:75])[O:51][H:76])[H:77])([H:78])[H:79])([H:80])[H:81])[H:82])[H:83])([H:84])[H:85])([H:86])[H:87])[H:88])([H:89])[H:90])([H:91])[H:92]</p>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
