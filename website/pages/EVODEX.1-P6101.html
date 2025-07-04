@@ -10,17 +10,6 @@
 
   gtag('config', 'G-5P35ML5WGZ');
 </script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5P35ML5WGZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5P35ML5WGZ');
-</script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVODEX.1-P6101 - Partial Reaction</title>
@@ -40,12 +29,12 @@
         <section>
             <h2>SMIRKS</h2>
             <img src="../images/EVODEX.1-P6101.svg" alt="Partial Reaction Rendering">
-            <p>Cl[C:2]1([H:9])[C:3]([H:10])([H:11])[C:4]([H:12])([H:13])[C:5]([H:14])([H:15])[C:6]([H:16])([H:17])[C:7]1([H:18])[H:19].[H][O:8][H:20]>>[C:2]1([O:8][H:20])([H:9])[C:3]([H:10])([H:11])[C:4]([H:12])([H:13])[C:5]([H:14])([H:15])[C:6]([H:16])([H:17])[C:7]1([H:18])[H:19]</p>
+            <p>Cl[C:3]([C:2]([C:1]([H:13])([H:14])[H:15])([H:11])[H:12])([C:4]([H:7])([H:8])[H:9])[H:10].[H][O:6][H:16]>>[C:1]([C:2]([C:3]([C:4]([H:7])([H:8])[H:9])([O:6][H:16])[H:10])([H:11])[H:12])([H:13])([H:14])[H:15]</p>
         </section>
         <section>
             <h2>Derived Operators</h2>
             <div>
-                <h3><a href="../pages/EVODEX.1-F238.html">EVODEX.1-F238 - Elemental Balance</a></h3>
+                <h3><a href="../pages/EVODEX.1-F236.html">EVODEX.1-F236 - Elemental Balance</a></h3>
                 <table class="table-formula">
                     
                     <tr><td>Cl</td><td>-1</td></tr>
@@ -55,14 +44,14 @@
                 </table>
             </div>
             <div>
-                <h3><a href="../pages/EVODEX.1-M137.html">EVODEX.1-M137 - Mass Difference</a></h3>
+                <h3><a href="../pages/EVODEX.1-M140.html">EVODEX.1-M140 - Mass Difference</a></h3>
                 <p><strong>-35.976729999999996</strong></p>
             </div>
             
             
             <div>
-                <h3><a href="../pages/EVODEX.1-E962.html">EVODEX.1-E962 - Reaction Operator E</a></h3>
-                <img src="../images/EVODEX.1-E962.svg" alt="Reaction Operator E SMIRKS">
+                <h3><a href="../pages/EVODEX.1-E974.html">EVODEX.1-E974 - Reaction Operator E</a></h3>
+                <img src="../images/EVODEX.1-E974.svg" alt="Reaction Operator E SMIRKS">
                 <p>[#6:1]-[#6:2](-[#6:3])(-[#17])-[H:9].[#8:5](-[H:13])-[H]>>[#6:1]-[#6:2](-[#6:3])(-[#8:5]-[H:13])-[H:9]</p>
             </div>
             
@@ -77,8 +66,8 @@
             
             
             <div>
-                <h3><a href="../pages/EVODEX.1-N898.html">EVODEX.1-N898 - Reaction Operator N</a></h3>
-                <img src="../images/EVODEX.1-N898.svg" alt="Reaction Operator N SMIRKS">
+                <h3><a href="../pages/EVODEX.1-N900.html">EVODEX.1-N900 - Reaction Operator N</a></h3>
+                <img src="../images/EVODEX.1-N900.svg" alt="Reaction Operator N SMIRKS">
                 <p>[#17]-[#6:2](-[H:15])(-[#6:3])-[#6:12].[H]-[#8:14]-[H:20]>>[#6:2](-[#8:14]-[H:20])(-[H:15])(-[#6:3])-[#6:12]</p>
             </div>
             
@@ -112,9 +101,9 @@
             <h2>Source Full Reactions</h2>
             
             <div>
-                <h3><a href="../pages/EVODEX.1-R6713.html">EVODEX.1-R6713</a></h3>
-                <img src="../images/EVODEX.1-R6713.svg" alt="Full Reaction Rendering">
-                <p>[Cl:1][C:2]1([H:9])[C:3]([H:10])([H:11])[C:4]([H:12])([H:13])[C:5]([H:14])([H:15])[C:6]([H:16])([H:17])[C:7]1([H:18])[H:19].[H][O:8][H:20]>>[C:2]1([O:8][H:20])([H:9])[C:3]([H:10])([H:11])[C:4]([H:12])([H:13])[C:5]([H:14])([H:15])[C:6]([H:16])([H:17])[C:7]1([H:18])[H:19].[H][Cl:1]</p>
+                <h3><a href="../pages/EVODEX.1-R6710.html">EVODEX.1-R6710</a></h3>
+                <img src="../images/EVODEX.1-R6710.svg" alt="Full Reaction Rendering">
+                <p>[C:1]([C:2]([C:3]([C:4]([H:7])([H:8])[H:9])([Cl:5])[H:10])([H:11])[H:12])([H:13])([H:14])[H:15].[H][O:6][H:16]>>[C:1]([C:2]([C:3]([C:4]([H:7])([H:8])[H:9])([O:6][H:16])[H:10])([H:11])[H:12])([H:13])([H:14])[H:15].[H][Cl:5]</p>
             </div>
             
         </section>
